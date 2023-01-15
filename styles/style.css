@@ -3,8 +3,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     margin: 0 auto;
+
     width: 1120px;
 }
 
@@ -12,27 +14,32 @@
     Header and Navigation Styles 
 --------------------------------------*/
 
-nav{
+nav {
     background: rgba(255, 144, 14, 0.1);
 }
-.nav-bar-menu{
+
+.nav-bar-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-bar-limon{
+
+.nav-bar-limon {
     display: flex;
     padding-top: 50px;
-   
+
 }
-.nav-bar-limon a{
+
+.nav-bar-limon a {
     text-decoration: none;
 }
-.nav-bar-limon li{
+
+.nav-bar-limon li {
     list-style: none;
     padding-right: 30px;
 }
-.nav-logo{
+
+.nav-logo {
     margin-top: 50px;
 }
 
@@ -44,12 +51,16 @@ nav{
     background: rgba(255, 144, 14, 0.1);
     padding-top: 100px;
 }
-.banner-img img{
+
+.banner-img img {
     width: 1120px;
+    margin-bottom: 40px;
 }
-.banner-description{
+
+.banner-description {
     text-align: center;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 64px;
@@ -74,3 +85,134 @@ nav{
     margin-bottom: 50px;
 }
 
+/* second banner style */
+
+.limon {
+    display: flex;
+    margin-top: 85px;
+}
+
+.architecters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.second-banner-title {
+    margin-left: 70px;
+    margin-top: 250px;
+}
+
+.second-banner-title-1 {
+    font-weight: 500;
+    color: #727272;
+}
+
+.second-banner-title-2 {
+    font-weight: 700;
+    color: #131313;
+}
+
+.second-banner-title-3 {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.second-banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* third-banner-style */
+.container-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.love-enjoy {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.enjoy {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #131313;
+}
+
+.simple-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #727272;
+}
+
+.simple-paragraph-2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #727272;
+}
+
+.containt-photo {
+    margin-top: 120px;
+}
+
+.btn-extra {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 880px;
+    position: relative;
+    transform: translateY(-150px);
+}
+
+/* some facts style */
+
+.some-facts {
+    margin-left: 230px;
+    margin-top: 120px;
+}
+
+.some-facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.icon-box {
+    display: flex;
+    margin: 50px 180px;
+    justify-content: space-around;
+}
+
+.box {
+    border: 2px solid #FF900E;
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    text-align: center;
+}
