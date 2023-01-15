@@ -128,7 +128,7 @@ nav {
 .container-2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin: 50px;
     align-items: center;
     gap: 20px;
 
@@ -180,7 +180,7 @@ nav {
     color: #FFFFFF;
     margin-left: 880px;
     position: relative;
-    transform: translateY(-150px);
+    transform: translateY(-100px);
 }
 
 /* some facts style */
@@ -215,4 +215,52 @@ nav {
     height: 220px;
     border-radius: 8px;
     text-align: center;
+}
+
+/* sponsors */
+
+.sponsor {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+/* sponsor logos */
+
+.sponsor-logs {
+    margin: 50px 240px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin: 0 240px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    
+    
 }
