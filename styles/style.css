@@ -1,40 +1,39 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 1120px;
 }
 
 /*------------------------------------ 
     Header and Navigation Styles 
 --------------------------------------*/
 
-header {
+nav{
     background: rgba(255, 144, 14, 0.1);
-    padding-top: 50px;
-    width: 1920px;
-    height: 1322px;
 }
-
-nav {
+.nav-bar-menu{
     display: flex;
     justify-content: space-between;
-    margin: 0px 220px;
     align-items: center;
-    margin-bottom: 100px;
 }
-
-nav ul {
+.nav-bar-limon{
     display: flex;
+    padding-top: 50px;
+   
 }
-
-nav li {
+.nav-bar-limon a{
+    text-decoration: none;
+}
+.nav-bar-limon li{
     list-style: none;
-    margin-left: 40px;
+    padding-right: 30px;
 }
-
-.nav-title {
-    font-size: 40px;
-    font-weight: 700;
-
+.nav-logo{
+    margin-top: 50px;
 }
 
 /*-----------------
@@ -42,9 +41,15 @@ nav li {
 ------------------*/
 
 .banner {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 100px;
+}
+.banner-img img{
+    width: 1120px;
+}
+.banner-description{
     text-align: center;
 }
-
 .banner-title {
     font-weight: 700;
     font-size: 64px;
@@ -69,133 +74,3 @@ nav li {
     margin-bottom: 50px;
 }
 
-/*----------------------
-    Second Banner Style
------------------------ */
-
-.container {
-    margin-top: 65px;
-    display: flex;
-
-    justify-content: center;
-}
-
-
-.photos {
-    display: grid;
-    grid-template-columns: auto;
-    gap: 24px;
-}
-
-
-.second-banner-title {
-    margin-left: 75px;
-    margin-top: 250px;
-
-}
-
-.second-banner-title-1 {
-    font-weight: 500;
-    color: #727272;
-}
-
-.second-banner-title-2 {
-    font-weight: 700;
-    color: #131313;
-}
-
-.second-banner-title-3 {
-    font-weight: 700;
-    color: #FF900E;
-}
-
-.second-banner-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-}
-
-
-/*-----------------------
-    Third Banner Style
--------------------------*/
-
-.container-2 {
-    display: flex;
-    gap: 50px;
-}
-
-.containt {
-    margin-top: 170px;
-
-}
-
-.love-enjoy {
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
-    border-left: 5px solid #FF900E;
-    padding-left: 10px;
-    margin-left: 240px;
-}
-
-.simple-paragraph {
-    margin-left: 240px;
-}
-
-.enjoy {
-    font-weight: 600;
-    font-size: 20px;
-    color: #131313;
-    margin-top: 50px;
-    margin-left: 270px;
-}
-
-.simple-paragraph-2 {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    margin-top: 15px;
-    margin-left: 270px;
-}
-
-.containt-photo {
-    margin-top: 130px;
-    margin-right: 240px;
-}
-
-.btn-extra {
-    width: 342px;
-    height: 200px;
-    background: #FF900E;
-    border-radius: 8px;
-    border: 0;
-    justify-content: center;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.5em;
-    margin-left: 880px;
-    color: #FFFFFF;
-}
-
-/*--------------
-    Some-Facts
-----------------*/
-
-.some-facts {
-    margin-left: 220px;
-    margin-top: 120px;
-}
-
-.some-facts-title {
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
-}
-
-.some-facts-description {
-    margin-top: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-}
