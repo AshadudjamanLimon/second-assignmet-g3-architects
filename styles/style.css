@@ -206,7 +206,7 @@ nav {
 .icon-box {
     display: flex;
     margin: 50px 180px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .box {
@@ -243,7 +243,7 @@ nav {
 .sponsor-logs {
     margin: 50px 240px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* footer */
@@ -261,6 +261,11 @@ nav {
     font-weight: 400;
     font-size: 20px;
     color: #424242;
-    
+ 
+}
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+    }
     
 }
